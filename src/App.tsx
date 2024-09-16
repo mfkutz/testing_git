@@ -4,13 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Main from './components/Main'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Header/>
+      <Header />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -24,7 +25,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-
+        <Main />
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>

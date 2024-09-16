@@ -5,6 +5,7 @@ import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Main from './components/Main'
+import Contact from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
           count is {count}
         </button>
         <Main />
+        <Contact/>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
